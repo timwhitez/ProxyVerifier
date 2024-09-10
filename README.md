@@ -7,13 +7,13 @@ ProxyVerifier is a Go tool designed to verify the functionality and anonymity of
 ## 特性 (Features)
 
 - 通过多个 IP 信息服务验证 HTTP 代理
-- 通过比较本地 IP 和代理 IP 检查代理匿名性
+- 通过比较本地 IP 和代理 IP 检查代理可用性
 - 支持并发代理检查
 - 可自定义代理请求超时时间
 - 以可读格式输出结果
 
 - Verifies HTTP proxies against multiple IP information services
-- Checks proxy anonymity by comparing local IP with proxy IP
+- Checks proxy by comparing local IP with proxy IP
 - Supports concurrent proxy checking
 - Customizable timeout for proxy requests
 - Outputs results in a readable format
